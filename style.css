@@ -1,0 +1,484 @@
+.container{
+    overflow: hidden;
+    border: solid 1px;
+    background-color:#8DD2C5;
+}
+.navbar{
+    border: solid 0px;
+    background-color:#014852;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    margin-top:5%;
+
+}
+   
+#button{
+    background-color:#4650A8;
+    padding: 10px;
+}
+.row{
+    display:flex;
+    gap:5%;
+    border: solid 0px;
+    background-color:#003E47;
+    height: 70vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: white;
+   
+}
+.column{
+    display:block;
+    margin-left: 100px;
+    font-size: larger;
+    color: white;
+}
+ #button1{
+    display: flex;
+    padding: 15px;
+    background-color:#3FB0CA;
+    width: 40%;
+    border-radius: 7%;
+    font-size: 20px;
+}
+#button2{
+    padding: 15px;
+    width: 40%;
+    border-radius: 7%;
+    font-size: 20px;
+
+}
+#buttons{
+    display: flex;
+    gap: 20px;
+}
+.column2{
+    gap: 50px;
+}
+#image1{
+    height: 500px;
+    float:right;
+    border: solid 0px;
+    border-radius: 20px;
+
+}
+#image2{
+    height: 300px;
+    align-items: center;
+    border: solid 0px;
+    border-radius: 20px;
+    margin-top:40% ;
+}
+#textblock2{
+    text-align: center;
+    font-size: 30px;
+    
+    
+    
+}
+.container2{
+    border: solid 0px;
+    display: flex;
+    gap:5%;
+    background-color: white;
+    height: 70vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration:black;
+    justify-content: center;
+    font-size: 25px;
+}
+#text1{
+    text-align: center;
+    margin-top: 15%;
+}
+#text2{
+    text-align: center;
+    margin-top: 15%;
+}
+#text3{
+    text-align: center;
+    margin-top: 15%;
+}
+.content3{
+    border: solid 0px;
+    display: flex;
+    gap:5%;
+    background-color: white;
+    height: 70vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration:black;
+    justify-content: center;
+    font-size: 25px;
+}
+#button3{
+    padding: 20px;
+    background-color:rgb(64, 64, 146);
+    color: white;
+}
+.content4{
+    border: solid 0px;
+    display: block;
+    gap:5%;
+    background-color:#CCF5FF;
+    height: 70vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration:black;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+    
+
+}
+#texts{
+    text-align: center;
+}
+#button4{
+    width: 10%;
+    padding: 10px;
+    background-color: #4650A8;
+}
+.content5{
+    border: solid 0px;
+    display: flex;
+    background-color:white;
+    height: 120vh;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+    justify-content:space-evenly;
+    font-size: 25px;
+    align-items: center;
+}
+.first{
+    display: block;
+}
+#second{
+    display: block;
+}
+#third{
+    display: block;
+}
+#highlights{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    font-size: 30px;
+
+}
+#view{
+    width: 10%;
+    border-radius: 20px;
+    background-color: #4650A8;
+    color: white;
+}
+.content6{
+    display: flex;
+    border: solid 0px;
+    gap:5%;
+    background-color:#003E47;
+    height: 50vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content:space-evenly;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#textblock{
+    color: white;
+}
+.footer{
+    display: flex;
+    border: solid 0px;
+    gap:5%;
+    background-color:#003E47;
+    height: 80vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content:space-evenly;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+
+#about{
+    display: block;
+    gap: 60px;
+   
+}
+#policy{
+    display:block;
+    gap: 50px;
+   
+
+}
+#career{
+    display: block;
+    gap: 50px;
+    
+}
+
+.last{
+    display:inline-flex;
+    gap: 80px;
+}
+#buttona{
+    padding: 20px;
+    border-color: #3FB0CA;
+    color: blue;
+    width: 30%;
+    border-radius: 20px;
+}
+@media all and (min-width:280px) and (max-width:1024px){
+    .container{
+        overflow: hidden;
+        
+        background-color:#8DD2C5;
+        
+    }
+    .navbar{
+        
+        background-color:#014852;
+        display: flex;
+        flex-wrap: wrap;
+        
+        color: white;
+        
+    }
+       
+    #button{
+        background-color:#4650A8;
+       
+    }
+    .row{
+        display:flex;
+        flex-wrap: wrap;
+        gap:0%;
+        border: solid 0px;
+        background-color:#003E47;
+        height: 0vh;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-decoration: white;
+       
+    }
+    .column{
+        display:block;
+        margin-left: 100px;
+        font-size: larger;
+        color: white;
+    }
+     #button1{
+        display: flex;
+        padding: 15px;
+        background-color:#3FB0CA;
+        width: 40%;
+        border-radius: 7%;
+        font-size: 20px;
+    }
+    #button2{
+        padding: 15px;
+        width: 40%;
+        border-radius: 7%;
+        font-size: 20px;
+    
+    }
+    #buttons{
+        display: flex;
+        gap: 20px;
+    }
+    .column2{
+        gap: 50px;
+    }
+    #image1{
+        height: 500px;
+        float:right;
+        border: solid 0px;
+        border-radius: 20px;
+    
+    }
+    #image2{
+        height: 300px;
+        align-items: center;
+        border: solid 0px;
+        border-radius: 20px;
+        margin-top:40% ;
+    }
+    #textblock2{
+        text-align: center;
+        font-size: 30px;
+        
+        
+        
+    }
+    .container2{
+        border: solid 0px;
+        display: flex;
+        gap:5%;
+        background-color: white;
+        height: 70vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-decoration:black;
+        justify-content: center;
+        font-size: 25px;
+    }
+    #text1{
+        text-align: center;
+        margin-top: 15%;
+    }
+    #text2{
+        text-align: center;
+        margin-top: 15%;
+    }
+    #text3{
+        text-align: center;
+        margin-top: 15%;
+    }
+    .content3{
+        border: solid 0px;
+        display: flex;
+        gap:5%;
+        background-color: white;
+        height: 70vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-decoration:black;
+        justify-content: center;
+        font-size: 25px;
+    }
+    #button3{
+        padding: 20px;
+        background-color:rgb(64, 64, 146);
+        color: white;
+    }
+    .content4{
+        border: solid 0px;
+        display: block;
+        gap:5%;
+        background-color:#CCF5FF;
+        height: 70vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-decoration:black;
+        justify-content: space-evenly;
+        font-size: 25px;
+    
+        
+    
+    }
+    #texts{
+        text-align: center;
+    }
+    #button4{
+        width: 10%;
+        padding: 10px;
+        background-color: #4650A8;
+    }
+    .content5{
+        border: solid 0px;
+        display: flex;
+        background-color:white;
+        height: 120vh;
+        margin-left: 10%;
+        margin-right: 10%;
+       
+        justify-content:space-evenly;
+        font-size: 25px;
+        align-items: center;
+    }
+    .first{
+        display: block;
+    }
+    #second{
+        display: block;
+    }
+    #third{
+        display: block;
+    }
+    #highlights{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 80px;
+        font-size: 30px;
+    
+    }
+    #view{
+        width: 10%;
+        border-radius: 20px;
+        background-color: #4650A8;
+        color: white;
+    }
+    .content6{
+        display: flex;
+        border: solid 0px;
+        gap:5%;
+        background-color:#003E47;
+        height: 50vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content:space-evenly;
+        font-size: 25px;
+        align-items: center;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    #textblock{
+        color: white;
+    }
+    .footer{
+        display: flex;
+        border: solid 0px;
+        gap:5%;
+        background-color:#003E47;
+        height: 80vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content:space-evenly;
+        font-size: 25px;
+        align-items: center;
+        border-radius: 20px;
+        margin-top: 20px;
+       
+    }
+    
+    #about{
+        display: block;
+        gap: 60px;
+       
+    }
+    #policy{
+        display:block;
+        gap: 50px;
+       
+    
+    }
+    #career{
+        display: block;
+        gap: 50px;
+        
+    }
+    
+    .last{
+        display:inline-flex;
+        gap: 80px;
+    }
+    #buttona{
+        padding: 20px;
+        border-color: #3FB0CA;
+        color: blue;
+        width: 30%;
+        border-radius: 20px;
+    }
+}
