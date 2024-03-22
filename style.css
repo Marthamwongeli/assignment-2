@@ -26,7 +26,7 @@
     gap:5%;
     border: solid 0px;
     background-color:#003E47;
-    height: 70vh;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
     text-decoration: white;
@@ -86,7 +86,7 @@
     display: flex;
     gap:5%;
     background-color: white;
-    height: 70vh;
+    height: 70%;
     margin-left: 10%;
     margin-right: 10%;
     text-decoration:black;
@@ -110,7 +110,7 @@
     display: flex;
     gap:5%;
     background-color: white;
-    height: 70vh;
+    height: 70%;
     margin-left: 10%;
     margin-right: 10%;
     text-decoration:black;
@@ -127,7 +127,7 @@
     display: block;
     gap:5%;
     background-color:#CCF5FF;
-    height: 70vh;
+    height: 70%;
     margin-left: 10%;
     margin-right: 10%;
     text-decoration:black;
@@ -149,7 +149,7 @@
     border: solid 0px;
     display: flex;
     background-color:white;
-    height: 120vh;
+    height: 70%;
     margin-left: 10%;
     margin-right: 10%;
    
@@ -184,7 +184,7 @@
     border: solid 0px;
     gap:5%;
     background-color:#003E47;
-    height: 50vh;
+    height: 500px;
     margin-left: 10%;
     margin-right: 10%;
     justify-content:space-evenly;
@@ -201,7 +201,7 @@
     border: solid 0px;
     gap:5%;
     background-color:#003E47;
-    height: 80vh;
+    height: 500px;
     margin-left: 10%;
     margin-right: 10%;
     justify-content:space-evenly;
@@ -240,26 +240,30 @@
     width: 30%;
     border-radius: 20px;
 }
-@media all and (min-width:280px) and (max-width:1024px){
+@media all and (min-width:280px) and (max-width:1024px) {
     .container{
         overflow: hidden;
-        
+        border: solid 0px;
         background-color:#8DD2C5;
-        
     }
     .navbar{
-        
+        border: solid 0px;
         background-color:#014852;
         display: flex;
         flex-wrap: wrap;
-        
+        justify-content: space-around;
+        padding: 5px;
+        font-size: 15px;
+        margin-left: 1%;
+        margin-right: 1%;
         color: white;
-        
+        margin-top:1%;
+    
     }
        
     #button{
         background-color:#4650A8;
-       
+        padding: 0px;
     }
     .row{
         display:flex;
@@ -267,57 +271,58 @@
         gap:0%;
         border: solid 0px;
         background-color:#003E47;
-        height: 0vh;
-        margin-left: 0%;
-        margin-right: 0%;
+        height: 800px;
+        margin-left: 3%;
+        margin-right: 3%;
         text-decoration: white;
        
     }
     .column{
         display:block;
-        margin-left: 100px;
+        margin-left: 50px;
         font-size: larger;
         color: white;
     }
      #button1{
         display: flex;
-        padding: 15px;
+        padding: opx;
         background-color:#3FB0CA;
         width: 40%;
-        border-radius: 7%;
+        border-radius: 2%;
         font-size: 20px;
     }
     #button2{
-        padding: 15px;
+        padding: 10px;
         width: 40%;
-        border-radius: 7%;
+        border-radius: 2%;
         font-size: 20px;
     
     }
     #buttons{
         display: flex;
-        gap: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
     .column2{
-        gap: 50px;
+        gap: 20px;
     }
     #image1{
-        height: 500px;
+        height: 150px;
         float:right;
         border: solid 0px;
-        border-radius: 20px;
+        border-radius: 10px;
     
     }
     #image2{
-        height: 300px;
+        height: 150px;
         align-items: center;
         border: solid 0px;
-        border-radius: 20px;
-        margin-top:40% ;
+        border-radius: 10px;
+        margin-top:10% ;
     }
     #textblock2{
         text-align: center;
-        font-size: 30px;
+        font-size: 10px;
         
         
         
@@ -325,33 +330,35 @@
     .container2{
         border: solid 0px;
         display: flex;
-        gap:5%;
+        flex-wrap: wrap;
+        gap:0px;
         background-color: white;
-        height: 70vh;
+        height: 500px;
         margin-left: 10%;
         margin-right: 10%;
         text-decoration:black;
         justify-content: center;
-        font-size: 25px;
+        font-size: 10px;
     }
     #text1{
         text-align: center;
-        margin-top: 15%;
+        margin-top: 0%;
     }
     #text2{
         text-align: center;
-        margin-top: 15%;
+        margin-top: 0%;
     }
     #text3{
         text-align: center;
-        margin-top: 15%;
+        margin-top: 0%;
     }
     .content3{
         border: solid 0px;
         display: flex;
-        gap:5%;
+        flex-wrap: wrap;
+        gap:2%;
         background-color: white;
-        height: 70vh;
+        height:1500px;
         margin-left: 10%;
         margin-right: 10%;
         text-decoration:black;
@@ -359,7 +366,7 @@
         font-size: 25px;
     }
     #button3{
-        padding: 20px;
+        padding: 10px;
         background-color:rgb(64, 64, 146);
         color: white;
     }
@@ -368,7 +375,7 @@
         display: block;
         gap:5%;
         background-color:#CCF5FF;
-        height: 70vh;
+        height: 500px;
         margin-left: 10%;
         margin-right: 10%;
         text-decoration:black;
@@ -382,7 +389,7 @@
         text-align: center;
     }
     #button4{
-        width: 10%;
+        width: 50%;
         padding: 10px;
         background-color: #4650A8;
     }
@@ -390,12 +397,12 @@
         border: solid 0px;
         display: flex;
         background-color:white;
-        height: 120vh;
-        margin-left: 10%;
-        margin-right: 10%;
-       
-        justify-content:space-evenly;
-        font-size: 25px;
+        height: 1000px;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-wrap: wrap;
+        justify-content:center;
+        font-size: 15px;
         align-items: center;
     }
     .first{
@@ -409,9 +416,10 @@
     }
     #highlights{
         display: flex;
-        justify-content: space-evenly;
-        gap: 80px;
-        font-size: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        font-size: 20px;
     
     }
     #view{
@@ -422,13 +430,14 @@
     }
     .content6{
         display: flex;
+        flex-wrap: wrap;
         border: solid 0px;
         gap:5%;
         background-color:#003E47;
-        height: 50vh;
+        height: 700px;
         margin-left: 10%;
         margin-right: 10%;
-        justify-content:space-evenly;
+        justify-content:center;
         font-size: 25px;
         align-items: center;
         border-radius: 20px;
@@ -439,14 +448,15 @@
     }
     .footer{
         display: flex;
+        flex-wrap: wrap;
         border: solid 0px;
         gap:5%;
         background-color:#003E47;
-        height: 80vh;
+        height: 650px;
         margin-left: 10%;
         margin-right: 10%;
         justify-content:space-evenly;
-        font-size: 25px;
+        font-size: 15px;
         align-items: center;
         border-radius: 20px;
         margin-top: 20px;
@@ -473,6 +483,7 @@
     .last{
         display:inline-flex;
         gap: 80px;
+        flex-wrap: wrap;
     }
     #buttona{
         padding: 20px;
